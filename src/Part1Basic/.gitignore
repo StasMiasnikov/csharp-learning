@@ -1,0 +1,68 @@
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+.history/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ASP.NET artifacts
+wwwroot/static/
+*.db
+*.log
+
+# Auto-generated files
+Generated\ Files/
+
+# Dotnet environment files
+*.dotnet-*
+
+# Logs
+*.log
+logs/
+Log.txt
+
+# Docker artifacts
+*.tar
+*.pid
+.dockerignore
+docker-compose.override.yml
+
+# Secrets and config
+appsettings.*.json
+secrets.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# Publish
+publish/
+
+# Global tools
+.tools/
+
+# npm if you're mixing frontends
+node_modules/
+
+# Others
+*.ncrunch*
+_ReSharper*/
